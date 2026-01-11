@@ -1,0 +1,65 @@
+ 
+ 
+.open-sans-{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+     font-family: "Fira Sans",sans-serif ;
+}
+
+/* share style */
+.card-pillar{
+    width: 302px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+}
+
+
+
+
+
+.headernav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn{
+    color: #006A50;
+    font-weight:600;
+    font-size: 18px;
+    border-radius: 2px solid #006A50 ;
+      
+}
+
+.header-banner{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #C6E4D6;
+   margin: 40px;
+     
+
+}
+
+ .banner-heading{
+    color: #0E0E0E;
+    line-height: 1px;
+ }
+
+ .banner-pra{
+    font-weight: bold;
+    font-size: 56px;
+ }
+
+ .container{
+    display: flex;
+ }
