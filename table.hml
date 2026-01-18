@@ -1,0 +1,97 @@
+   <div class="container">
+  <h1>Your Opinion Matters</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Questions</th>
+        <th class="right">Select Your Opinion</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
+        <td class="right">
+          <select>
+            <option>Yes, I Agree</option>
+            <option>No, I Disagree</option>
+            <option>Not Sure</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
+        <td class="right">
+          <select>
+            <option>Yes, I Agree</option>
+            <option>No, I Disagree</option>
+            <option>Not Sure</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
+        <td class="right">
+          <select>
+            <option>Yes, I Agree</option>
+            <option>No, I Disagree</option>
+            <option>Not Sure</option>
+          </select>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+///style    
+
+.container {
+  width: 90%;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  background: #cfe8dc;
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #9fc7b5;
+}
+
+thead th.right {
+  text-align: center;
+}
+
+tbody td {
+  padding: 20px;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+}
+
+.right {
+  text-align: center;
+}
+
+select {
+  padding: 10px 15px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background: #e5f6ed;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+

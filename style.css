@@ -15,15 +15,13 @@ body{
 
 /* share style */
 .card-pillar{
-    width: 250px;
+    width: 220px;
     border-radius: 16px;
     background-color: #FFFFFF;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px;
 }
-
-
-
+ 
 
 
 .headernav{
@@ -65,3 +63,163 @@ body{
   align-items: center;
    justify-content: space-around;               
  }
+
+ .Vision-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ }
+
+
+.Vision-container{
+    background-color:#F1F1F3 ;
+}
+
+ .vision-1{
+     width: 320px;
+    border-radius: 16px;
+    background-color: #75a1ec;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+ }
+ .vision-2{
+     width: 320px;
+    border-radius: 16px;
+    background-color: #09A15C;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+ }
+ .vision-3{
+     width: 320px;
+    border-radius: 16px;
+    background-color: #FFC239;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+ }
+
+ .yunusText{
+    border-radius: 16px;
+    background-image: url('assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+ }
+
+
+/* table style start */
+
+.container-option{
+    width: 90%;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 6pxs;
+}
+
+.option-heading{
+    margin-bottom: 20px;
+}
+ 
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th{
+    background: #75daac;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #9fc7b5;
+}
+
+thead th.right {
+  text-align: center;
+}
+
+tbody td {
+  padding: 20px;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+}
+
+.right {
+  text-align: center;
+}
+
+select {
+  padding: 10px 15px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background: #e5f6ed;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.line{
+    width: 2%;
+    color: rgb(144, 3, 245);
+   
+}
+
+
+.news-1{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+
+.img-1 img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+.text-one{
+    width: 700px;
+    padding: 32px;
+}
+
+.btn{
+    color: white;
+    background-color: #006A50;
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+     
+    
+}
+
+.Donate-section{
+    width: 90%;
+    text-align: center;
+}
+
+.btn-2{
+width: 180px;
+padding: 20px;
+font-weight: bolder;
+font-size: 20px;
+border: none;
+border-radius: 5px;
+  box-shadow: 1px 2px #f7cbcb;
+}
+
+.two{
+background-color:#d2e7dd ;
+
+}
+
+.sub-New{
+    width:90%;
+    text-align: center;
+}
+
+input{
+    width: 450px;
+    height: 40px;
+    border: none;
+     box-shadow: 1px 2px #f7cbcb;
+
+}
